@@ -1,6 +1,7 @@
 #include "dialog.h"
 #include "ui_dialog.h"
 #include "input.h"
+#include "cliente.h"
 
 Dialog::Dialog(QWidget *parent) :
     QDialog(parent),
@@ -32,6 +33,11 @@ void Dialog::on_pushButton1_clicked()
 
 void Dialog::on_pushButton2_clicked()
 {
+    Cliente *c = new Cliente;
+    string s = "a";
+    char cr[sizeof(s)];
+    strcpy(cr,s.c_str());
+    c->enviar(cr);
 
 }
 

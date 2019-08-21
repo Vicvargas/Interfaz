@@ -27,3 +27,4 @@ void Input::on_pushButton_clicked()
     strcpy(cr,s.c_str());
     c->enviar(cr);
 }
+
