@@ -6,7 +6,9 @@
 namespace Ui {
 class Input;
 }
-
+/*! Clase que muestra la ventana para ingresar un input
+ * \brief The Input class
+ */
 class Input : public QDialog
 {
     Q_OBJECT
@@ -17,6 +19,8 @@ public:
 
 private slots:
     void on_input_copyAvailable(bool b);
+
+    void on_pushButton_clicked();
 
 private:
     Ui::Input *ui;

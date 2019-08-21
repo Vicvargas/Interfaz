@@ -7,6 +7,9 @@ namespace Ui {
 class Dialog;
 }
 
+/*!Clase que muestra la ventana principal
+ * \brief The Dialog class
+ */
 class Dialog : public QDialog
 {
     Q_OBJECT

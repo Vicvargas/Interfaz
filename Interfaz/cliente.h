@@ -10,6 +10,10 @@
 
 using namespace std;
 
+/*!
+  Clase que inicializa el socket del cliente
+ * \brief The Cliente class
+ */
 class Cliente
 {
 public:
